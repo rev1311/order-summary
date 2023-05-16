@@ -9,5 +9,16 @@
 }
 
 body {
-    background-image: url('/assets/ZigZag.webp')
+    background-image: url('/assets/ZigZag.webp');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    min-width: 325px;
+    max-width: 350px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
 }
