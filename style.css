@@ -10,15 +10,31 @@
 
 body {
     background-image: url('/assets/ZigZag.webp');
+}
+
+.card-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .card {
+    position: relative;
     min-width: 325px;
     max-width: 350px;
+    min-height: 550px;
+    border-radius: 5px;
     background-color: white;
     padding: 20px;
     margin: 0 auto;
+    box-shadow: rgba(60, 123, 97, 1) 0px 40px 40px -20px;
+    
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
