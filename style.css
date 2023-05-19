@@ -85,3 +85,20 @@ body {
     height: 66px;
     margin-right: 20px;
 }
+
+.card-item-text {
+    align-self: center;    
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-item-title {
+    font-weight: 800;
+    color: rgba(47, 70, 61, 1);
+}
+
+.card-item-price {
+    font-weight: 500;
+    color: rgba(122, 143, 133, 1);
+}
