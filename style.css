@@ -72,3 +72,16 @@ body {
     margin-bottom: 20px;
     color: #828282;
 }
+
+.card-item {
+    display: flex;
+    background-color: rgba(240, 255, 245, 1);
+    position: relative;
+}
+
+.card-item-img {
+    background: center / cover url("assets/Rectangle.webp");
+    width: 54px;
+    height: 66px;
+    margin-right: 20px;
+}
