@@ -48,3 +48,27 @@ body {
     width: fit-content;
     margin: 40px auto;
 }
+
+.card-text {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-text > h1 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    color: #2F463D;
+}
+
+.card-text > p {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #828282;
+}
