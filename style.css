@@ -102,3 +102,19 @@ body {
     font-weight: 500;
     color: rgba(122, 143, 133, 1);
 }
+
+.card-item-link {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    color: rgba(70, 122, 102, 1);
+}
+
+.card-item-link:visited {
+    color: rgba(70, 122, 102, 1);
+}
