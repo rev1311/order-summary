@@ -46,7 +46,7 @@ body {
 
 .card-img {
     width: fit-content;
-    margin: 40px auto;
+    margin: 30px auto;
 }
 
 .card-text {
@@ -60,7 +60,7 @@ body {
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #2F463D;
 }
 
