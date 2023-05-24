@@ -158,8 +158,8 @@ body {
 }
 
 .confirmation {
- z-index: 2;
- scale: 105%;
+    z-index: 2;
+    scale: 105%;
 }
 
 .delivery {
