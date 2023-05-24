@@ -154,15 +154,16 @@ body {
 }
 
 .hamburger {
-    margin-right: -10px;
+    margin-right: -5px;
 }
 
 .confirmation {
  z-index: 2;
+ scale: 105%;
 }
 
 .delivery {
-    margin-left: -10px;
+    margin-left: -5px;
 }
 
 .active {
