@@ -15,6 +15,9 @@ body, html {
 
 body {
     background-image: url('/assets/ZigZag.webp');
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-container {
@@ -22,7 +25,9 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 100vh;
+    height: fit-content;
+    padding: 50px;
+    background-color: aqua;
 }
 
 .card {
@@ -33,7 +38,6 @@ body {
     border-radius: 5px;
     background-color: white;
     padding: 30px 20px;
-    margin: 0 auto;
     box-shadow: rgba(60, 123, 97, 1) 0px 40px 40px -20px;
     
 }
@@ -148,6 +152,18 @@ body {
     height: 7px;
     background-color: #E0E0E0;
     border-radius: 50%;
+}
+
+.hamburger {
+    margin-right: -10px;
+}
+
+.confirmation {
+ z-index: 2;
+}
+
+.delivery {
+    margin-left: -10px;
 }
 
 .active {
